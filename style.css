@@ -315,3 +315,98 @@ border: 2px solid var(--unnamed-color-fd8c94);
     background: var(--unnamed-color-e9e9e9);
     border-radius: 50px;
 }
+
+@media only screen and (max-width: 1025px) {
+    .modal {
+        top: 31px;
+        left: 13px;
+        width: 350px;
+        height: 546px;
+        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    }
+    .close{
+        top: 36px;
+        left: 319px;
+    }
+    .get-your-style-on{
+        top: 80px;
+        left: 64px;
+        width: 247px;
+        height: 120px;
+        font: normal normal normal 45px/59px Prata;
+        letter-spacing: 7px;
+    }
+    .ampersand {
+        top: 191px;
+        left: 161px;
+        width: 53px;
+        height: 89px;
+        font: normal normal normal 65px/85px Prata;
+        letter-spacing: 13px;
+    }
+    
+    .number-off {
+        top: 248px;
+        left: 63px;
+        width: 185px;
+        height: 195px;
+        font: normal normal normal 144px/206px Prata;
+        letter-spacing: -3.74px;
+    }
+    
+    .percentage-sign {
+        top: 275px;
+        left: 255px;
+        width: 58px;
+        height: 95px;
+        font: normal normal normal 70px/100px Prata;
+        letter-spacing: 5.6px;
+    }
+    
+    .off-word {
+        top: 344px;
+        left: 254px;
+        width: 54px;
+        height: 31px;
+        font: normal normal normal 23px/33px Prata;
+        letter-spacing: 1.84px;
+    }
+    
+    .email-address {
+        top: 428px;
+        left: 125px;
+        width: 126px;
+        height: 19px;
+        font: normal normal bold 15px/16px PT Sans;
+        letter-spacing: 3px;
+    }
+    
+    .email-underline {
+        top: 459px;
+        left: 28px;
+        width: 320px;
+    }
+    
+    .sign-up {
+        top: 489px;
+        left: 28px;
+        width: 320px;
+        height: 55px;
+        border: 1px solid var(--unnamed-color-fd8c94);
+        text-align: center;
+    }
+
+    .line4 {
+        top: 230px;
+        left: 65px;
+        width: 90px;
+        height: 0;
+    }
+
+    .line5 {
+        top: 230px;
+        left: 222px;
+        width: 90px;
+        height: 0;
+    }
+}
