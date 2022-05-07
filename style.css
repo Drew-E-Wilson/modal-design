@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+:root {
+
+    /* Colors: */
+    --unnamed-color-ff4b4b: #FF4B4B;
+    --unnamed-color-e9e9e9: #E9E9E9;
+    --unnamed-color-000000: #000000;
+    --unnamed-color-ffffff: #FFFFFF;
+    --unnamed-color-464646: #464646;
+    --unnamed-color-fd8c94: #FD8C94;
+
+    /* Font/text values */
+    --unnamed-font-family-prata: Prata;
+    --unnamed-font-style-normal: normal;
+    --unnamed-font-weight-normal: normal;
+    --unnamed-font-size-68: 68px;
+    --unnamed-character-spacing-5-44: 5.44px;
+    --unnamed-line-spacing-78: 78px;
+}
+
+.background {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(0, 0, 0, .4);
+    z-index: 1;
+    display: none;
+}
+
+
+button {
+    background: var(--unnamed-color-fd8c94);
+    font-family: var(--unnamed-font-family-prata);
+    padding: 10px;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button:hover {
+    background: #e88087;
+}
+
+/* /////   MODAL ONE    //////  */
+.close, .get-your-style-on, .line, .ampersand, .number-off, .percentage-sign, .off-word, .email-address, .email-underline, .sign-up, .signup-underline, .old-friends, .keep-updated, .go-shop, .circle { 
+    position: fixed;
+    opacity: 1;
+}
+
+.modal {
+    position: relative;
+    top: 174px;
+    left: 344px;
+    width: 680px;
+    height: 500px;
+    background: var(--unnamed-color-ffffff);
+    opacity: 1;
+    display: none;
+}
+
+.sign-up-form {
+    display: block;
+}
+
+.close {
+    top: 195px;
+    left: 970px;
+    font-size: 32px;
+    color: var(--unnamed-color-e9e9e9);
+}
+
+.close:hover {
+    cursor: pointer;
+    color: var(--unnamed-color-000000);
+}
+
+
+.get-your-style-on {
+    top: 252px;
+    left: 434px;
+    width: 208px;
+    height: 344px;
+    color: var(--unnamed-color-464646);
+    text-align: left;
+    font: normal normal normal 65px/85px Prata;
+    letter-spacing: 13px;
+}
+
+.line {
+    width: 0px;
+    opacity: 1;
+}
+
+.line1 {
+    top: 174px;
+    left: 400px;
+    height: 98px;
+    border: 1px solid rgb(255, 159, 159);
+}
+
+.line2 {
+    top: 274px;
+    left: 400px;
+    height: 300px;
+    border: 1px solid var(--unnamed-color-e9e9e9);
+}
+
+.line3 {
+    top: 574px;
+    left: 400px;
+    height: 98px;
+    border: 1px solid rgb(255, 159, 159);
+}
+
+.line4 {
+    top: 253px;
+    left: 664px;
+    height: 98px;
+    border: 1px solid var(--unnamed-color-e9e9e9);
+}
+
+.line5 {
+    top: 497px;
+    left: 664px;
+    height: 98px;
+    border: 1px solid var(--unnamed-color-e9e9e9);
+}
+
+.ampersand {
+    top: 381px;
+    left: 642px;
+    width: 53px;
+    height: 89px;
+    color: var(--unnamed-color-fd8c94);
+    text-align: left;
+    font: normal normal normal 65px/85px Prata;
+    letter-spacing: 13px;
+}
+
+.number-off {
+    top: 320px;
+    left: 690px;
+    width: 214px;
+    height: 226px;
+    color: var(--unnamed-color-464646);
+    text-align: left;
+    font: normal normal normal 167px/239px Prata;
+    letter-spacing: -4.34px;
+}
+
+.percentage-sign {
+    top: 351px;
+    left: 911px;
+    width: 68px;
+    height: 111px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: var(--unnamed-color-464646);
+    text-align: left;
+    font: normal normal normal 82px/117px Prata;
+    letter-spacing: 6.56px;
+}
+
+.off-word {
+    top: 431px;
+    left: 910px;
+    width: 66px;
+    height: 38px;
+    color: var(--unnamed-color-464646);
+    text-align: left;
+    font: normal normal normal 28px/40px Prata;
+    letter-spacing: 2.24px;
+}
+
+.email-address {
+    top: 542px;
+    left: 684px;
+    /* width: 126px; */
+    height: 19px;
+    width: 180px;
+    font: var(--unnamed-font-style-normal) normal bold 15px/16px PT Sans;
+    color: var(--unnamed-color-464646);
+    text-align: left;
+    letter-spacing: 3px;
+    border: 0;
+    outline: 0;
+}
+
+.email-underline {
+    top: 573px;
+    left: 686px;
+    width: 180px;
+    height: 0px;
+    border: 2px solid var(--unnamed-color-464646);
+}
+
+.sign-up {
+    top: 542px;
+    left: 888px;
+    width: 80px;
+    height: 19px;
+    color: var(--unnamed-color-fd8c94);
+    text-align: left;
+    font: normal normal bold 15px/16px PT Sans;
+    letter-spacing: 3px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.signup-underline {
+    top: 573px;
+    left: 876px;
+    width: 93px;
+    height: 0px;
+    border: 2px solid var(--unnamed-color-fd8c94);
+}
