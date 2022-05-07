@@ -222,3 +222,96 @@ button:hover {
     height: 0px;
     border: 2px solid var(--unnamed-color-fd8c94);
 }
+
+/* /////     MODAL TWO     ////// */
+
+.confirmation-page {
+    display: none;
+}
+
+
+.old-friends {
+    top: 278px;
+    left: 435px;
+    width: 510px;
+    height: 174px;
+    color: var(--unnamed-color-464646);
+    text-align: left;
+    font: normal normal normal 65px/85px Prata;
+    letter-spacing: 12px;
+}
+
+.keep-updated {
+    top: 485px;
+    left: 435px;
+    width: 497px;
+    height: 18px;
+    color: var(--unnamed-color-464646);
+    text-align: left;
+    font: normal normal normal 14px/35px PT Sans;
+    letter-spacing: 0.7px;
+}
+
+.go-shop {
+    top: 545px;
+    left: 446px;
+    width: 85px;
+    height: 19px;
+    color: var(--unnamed-color-fd8c94);
+    text-align: center;
+    font: normal normal bold 15px/16px PT Sans;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.line6 {
+top: 460px;
+left: 450px;
+width: 102px;
+height: 0px;
+border: 1px solid var(--unnamed-color-e9e9e9);
+}
+
+.line7 {
+top: 576px;
+left: 435px;
+width: 99px;
+height: 0px;
+border: 2px solid var(--unnamed-color-fd8c94);
+}
+
+.circle1 {
+    top: 455px;
+    left: 435px;
+    width: 10px;
+    height: 10px;
+    background: var(--unnamed-color-e9e9e9);
+    border-radius: 50px;
+}
+
+.circle2 {
+    top: 455px;
+    left: 556px;
+    width: 10px;
+    height: 10px;
+    background: var(--unnamed-color-e9e9e9);
+    border-radius: 50px;
+}
+
+.circle3 {
+    top: 452px;
+    left: 571px;
+    width: 15px;
+    height: 15px;
+    background: var(--unnamed-color-e9e9e9);
+    border-radius: 50px;
+}
+
+.circle4 {
+    top: 455px;
+    left: 591px;
+    width: 10px;
+    height: 10px;
+    background: var(--unnamed-color-e9e9e9);
+    border-radius: 50px;
+}
