@@ -9,10 +9,8 @@ const signUp = document.querySelector(".sign-up");
 const goShopBtn = document.querySelector(".go-shop");
 const email = document.querySelector(".email-address");
 
-
 // Local Variables
 const emailLogic = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-
 
 // Functions
 const resetForm = () => {
@@ -26,7 +24,6 @@ const validateEmail = (email) => {
   };
 
 // Events
-
 openModalButton.onclick = () => {
     background.style.display = "block";
     modal.style.display = "block";
@@ -45,7 +42,6 @@ window.onclick = event => {
         resetForm();
     }
 }
-
 signUp.onclick = event => {
     event.preventDefault();
     if (validateEmail(email.value)) {
